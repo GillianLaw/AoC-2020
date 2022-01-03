@@ -20,6 +20,11 @@ for i, number in enumerate(spending[:-1]):
       ans = number * complementary
       print(ans)
    
+for line in spending:
+  for line2 in spending:
+    for line3 in spending:
+      if line + line2 + line3 == 2020:
+        print(line * line2 * line3)
 
 
 
